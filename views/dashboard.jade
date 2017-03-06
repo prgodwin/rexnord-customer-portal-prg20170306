@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  if user
+  h3 Welcome back #{user.name}
+  h3 User type #{user.type}
+  select.devicesSelect#deviceslist
+   - for (var i = 0; i < user.devices.length ; i++)
+    option #{user.devices[i]} 
+
+include footer

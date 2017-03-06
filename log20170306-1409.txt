@@ -1,0 +1,133 @@
+Connected, tailing logs for app rexnord-customer-portal-prg20170306 in org prgodwin@us.ibm.com / space dev as prgodwin@us.ibm.com...
+
+2017-03-06T14:09:56.55-0500 [CELL/0]     OUT Successfully created container
+2017-03-06T14:09:58.60-0500 [CELL/0]     OUT Starting health monitoring of container
+2017-03-06T14:09:59.56-0500 [APP/0]      OUT > NodejsStarterApp@0.0.1 start /home/vcap/app
+2017-03-06T14:09:59.56-0500 [APP/0]      OUT > node app.js
+2017-03-06T14:10:00.53-0500 [APP/0]      ERR /home/vcap/app/routes/index.js:8
+2017-03-06T14:10:00.53-0500 [APP/0]      ERR                                                  ^
+2017-03-06T14:10:00.53-0500 [APP/0]      ERR TypeError: Cannot read property 'username' of undefined
+2017-03-06T14:10:00.53-0500 [APP/0]      ERR     at Module._compile (module.js:409:26)
+2017-03-06T14:10:00.53-0500 [APP/0]      ERR     at Module.load (module.js:343:32)
+2017-03-06T14:10:00.53-0500 [APP/0]      ERR     at Module.require (module.js:353:17)
+2017-03-06T14:10:00.53-0500 [APP/0]      ERR     at require (internal/module.js:12:17)
+2017-03-06T14:10:00.53-0500 [APP/0]      ERR     at Module._compile (module.js:409:26)
+2017-03-06T14:10:00.53-0500 [APP/0]      ERR     at Function.Module._load (module.js:300:12)
+2017-03-06T14:10:00.54-0500 [APP/0]      ERR npm ERR! Linux 4.4.0-45-generic
+2017-03-06T14:10:00.54-0500 [APP/0]      ERR npm ERR! node v4.7.2
+2017-03-06T14:10:00.54-0500 [APP/0]      ERR npm ERR! NodejsStarterApp@0.0.1 start: `node app.js`
+2017-03-06T14:10:00.54-0500 [APP/0]      ERR npm ERR! Exit status 1
+2017-03-06T14:10:00.54-0500 [APP/0]      ERR npm ERR! 
+2017-03-06T14:10:00.54-0500 [APP/0]      ERR npm ERR! Failed at the NodejsStarterApp@0.0.1 start script 'node app.js'.
+2017-03-06T14:10:00.54-0500 [APP/0]      ERR npm ERR! This is most likely a problem with the NodejsStarterApp package,
+2017-03-06T14:10:00.54-0500 [APP/0]      ERR npm ERR! not with npm itself.
+2017-03-06T14:10:00.54-0500 [APP/0]      ERR npm ERR! Tell the author that this fails on your system:
+2017-03-06T14:10:00.54-0500 [APP/0]      ERR npm ERR!     node app.js
+2017-03-06T14:10:00.54-0500 [APP/0]      ERR npm ERR! 
+2017-03-06T14:10:00.54-0500 [APP/0]      ERR npm ERR! There is likely additional logging output above.
+2017-03-06T14:10:00.55-0500 [APP/0]      ERR npm ERR! Please include the following file with any support request:
+2017-03-06T14:10:00.55-0500 [APP/0]      ERR npm ERR!     /home/vcap/app/npm-debug.log
+2017-03-06T14:10:00.55-0500 [APP/0]      OUT Exit status 1
+2017-03-06T14:10:00.59-0500 [CELL/0]     OUT Exit status 0
+2017-03-06T14:10:00.60-0500 [CELL/0]     OUT Destroying container
+2017-03-06T14:10:00.53-0500 [APP/0]      ERR     at Function.Module.runMain (module.js:441:10)
+2017-03-06T14:10:00.54-0500 [APP/0]      ERR npm ERR! code ELIFECYCLE
+2017-03-06T14:10:05.87-0500 [CELL/0]     OUT Successfully destroyed container
+2017-03-06T14:12:41.92-0500 [API/0]      OUT Updated app with guid e5ddb78f-12e9-4ebc-9fe9-2e7bc9f1f9a3 ({"name"=>"rexnord-customer-portal-prg20170306", "command"=>"PRIVATE DATA HIDDEN", "instances"=>1, "memory"=>256, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-03-06T14:12:43.73-0500 [API/3]      OUT Updated app with guid e5ddb78f-12e9-4ebc-9fe9-2e7bc9f1f9a3 ({"route"=>"aea5c0a2-a881-4048-bd34-836f2e6e3dbb"})
+2017-03-06T14:12:51.91-0500 [CELL/0]     OUT Successfully created container
+2017-03-06T14:12:53.26-0500 [API/7]      OUT Updated app with guid e5ddb78f-12e9-4ebc-9fe9-2e7bc9f1f9a3 ({"console"=>true, "state"=>"STOPPED"})
+2017-03-06T14:12:56.11-0500 [API/0]      OUT Updated app with guid e5ddb78f-12e9-4ebc-9fe9-2e7bc9f1f9a3 ({"console"=>true, "state"=>"STARTED"})
+2017-03-06T14:12:56.15-0500 [STG/0]      OUT Downloading swift_buildpack_v2_0_3-20161217-1748...
+2017-03-06T14:12:56.15-0500 [STG/0]      OUT Downloading noop-buildpack...
+2017-03-06T14:12:56.16-0500 [STG/0]      OUT Downloading binary_buildpack...
+2017-03-06T14:12:56.17-0500 [STG/0]      OUT Downloaded swift_buildpack_v2_0_3-20161217-1748
+2017-03-06T14:12:56.17-0500 [STG/0]      OUT Downloaded noop-buildpack
+2017-03-06T14:12:56.17-0500 [STG/0]      OUT Downloading ruby_buildpack...
+2017-03-06T14:12:56.17-0500 [STG/0]      OUT Downloaded dotnet-core
+2017-03-06T14:12:56.17-0500 [STG/0]      OUT Downloading nodejs_buildpack...
+2017-03-06T14:12:56.17-0500 [STG/0]      OUT Downloading go_buildpack...
+2017-03-06T14:12:56.18-0500 [STG/0]      OUT Downloaded binary_buildpack
+2017-03-06T14:12:56.18-0500 [STG/0]      OUT Downloading python_buildpack...
+2017-03-06T14:12:56.19-0500 [STG/0]      OUT Downloaded java_buildpack
+2017-03-06T14:12:56.19-0500 [STG/0]      OUT Downloading xpages_buildpack...
+2017-03-06T14:12:56.19-0500 [STG/0]      OUT Downloaded ruby_buildpack
+2017-03-06T14:12:56.20-0500 [STG/0]      OUT Downloaded go_buildpack
+2017-03-06T14:12:56.20-0500 [STG/0]      OUT Downloading staticfile_buildpack...
+2017-03-06T14:12:56.20-0500 [STG/0]      OUT Downloaded nodejs_buildpack
+2017-03-06T14:12:56.20-0500 [STG/0]      OUT Downloading dotnet-core_v1_0_6-20161205-0912...
+2017-03-06T14:12:56.21-0500 [STG/0]      OUT Downloaded python_buildpack
+2017-03-06T14:12:56.21-0500 [STG/0]      OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-03-06T14:12:56.22-0500 [STG/0]      OUT Downloaded php_buildpack
+2017-03-06T14:12:56.22-0500 [STG/0]      OUT Downloading liberty-for-java_v3_6-20161209-1351...
+2017-03-06T14:12:56.22-0500 [STG/0]      OUT Downloaded staticfile_buildpack
+2017-03-06T14:12:56.22-0500 [STG/0]      OUT Downloading liberty-for-java...
+2017-03-06T14:12:56.22-0500 [STG/0]      OUT Downloaded dotnet-core_v1_0_6-20161205-0912
+2017-03-06T14:12:56.22-0500 [STG/0]      OUT Downloading sdk-for-nodejs...
+2017-03-06T14:12:56.23-0500 [STG/0]      OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-03-06T14:12:56.24-0500 [STG/0]      OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-03-06T14:12:56.24-0500 [STG/0]      OUT Downloaded sdk-for-nodejs
+2017-03-06T14:12:56.26-0500 [STG/0]      OUT Downloaded sdk-for-nodejs_v3_9-20161128-1327
+2017-03-06T14:12:57.33-0500 [CELL/0]     OUT Starting health monitoring of container
+2017-03-06T14:12:57.35-0500 [CELL/0]     OUT Destroying container
+2017-03-06T14:13:05.46-0500 [STG/0]      OUT Downloading app package...
+2017-03-06T14:13:05.60-0500 [STG/0]      OUT Downloaded app package (46.9K)
+2017-03-06T14:13:06.62-0500 [STG/0]      OUT Downloaded build artifacts cache (5.3M)
+2017-03-06T14:13:06.62-0500 [STG/0]      OUT Staging...
+2017-03-06T14:13:07.76-0500 [STG/0]      OUT -----> IBM SDK for Node.js Buildpack v3.10-20170119-1146
+2017-03-06T14:13:07.77-0500 [STG/0]      OUT -----> Creating runtime environment
+2017-03-06T14:13:07.77-0500 [STG/0]      OUT        
+2017-03-06T14:13:07.77-0500 [STG/0]      OUT        NPM_CONFIG_PRODUCTION=true
+2017-03-06T14:13:07.78-0500 [STG/0]      OUT        NODE_ENV=production
+2017-03-06T14:13:07.78-0500 [STG/0]      OUT        NODE_MODULES_CACHE=true
+2017-03-06T14:13:07.78-0500 [STG/0]      OUT -----> Installing binaries
+2017-03-06T14:13:07.79-0500 [STG/0]      OUT        engines.node (package.json):  4.x
+2017-03-06T14:13:07.79-0500 [STG/0]      OUT        engines.npm (package.json):   unspecified (use default)
+2017-03-06T14:13:07.79-0500 [STG/0]      OUT        Resolving node version 4.x via 'node-version-resolver'
+2017-03-06T14:13:07.99-0500 [STG/0]      OUT        Installing IBM SDK for Node.js (4.7.2) from cache
+2017-03-06T14:13:09.50-0500 [STG/0]      OUT -----> Restoring cache
+2017-03-06T14:13:09.77-0500 [STG/0]      OUT        Loading 2 from cacheDirectories (default):
+2017-03-06T14:13:09.77-0500 [STG/0]      OUT        - bower_components (not cached - skipping)
+2017-03-06T14:13:09.77-0500 [STG/0]      OUT -----> Checking and configuring service extensions before installing dependencies
+2017-03-06T14:13:09.86-0500 [STG/0]      OUT -----> Building dependencies
+2017-03-06T14:13:09.86-0500 [STG/0]      OUT        Installing node modules (package.json)
+2017-03-06T14:13:11.70-0500 [STG/0]      OUT -----> Checking and configuring service extensions after installing dependencies
+2017-03-06T14:13:11.82-0500 [STG/0]      OUT -----> Installing App Management
+2017-03-06T14:13:14.00-0500 [STG/0]      OUT -----> Caching build
+2017-03-06T14:13:14.04-0500 [STG/0]      OUT        - node_modules
+2017-03-06T14:13:14.72-0500 [CELL/0]     OUT Successfully destroyed container
+2017-03-06T14:13:16.72-0500 [STG/0]      OUT        - bower_components (nothing to cache)
+2017-03-06T14:13:16.98-0500 [STG/0]      OUT -----> Build succeeded!
+2017-03-06T14:13:17.69-0500 [STG/0]      OUT        ├── bcryptjs@2.4.3 extraneous
+2017-03-06T14:13:17.69-0500 [STG/0]      OUT        ├── body-parser@1.13.3 extraneous
+2017-03-06T14:13:17.69-0500 [STG/0]      OUT        ├── cloudant@1.7.1 extraneous
+2017-03-06T14:13:17.69-0500 [STG/0]      OUT        ├── debug@2.2.0
+2017-03-06T14:13:17.69-0500 [STG/0]      OUT        ├── express@4.13.4
+2017-03-06T14:13:17.69-0500 [STG/0]      OUT        ├── express-messages@1.0.1 extraneous
+2017-03-06T14:13:17.69-0500 [STG/0]      OUT        ├── express-session@1.15.1 extraneous
+2017-03-06T14:13:17.69-0500 [STG/0]      OUT        ├── express-validator@3.1.2 extraneous
+2017-03-06T14:13:17.69-0500 [STG/0]      OUT        ├── jade@1.11.0 extraneous
+2017-03-06T14:13:17.69-0500 [STG/0]      OUT        ├── morgan@1.6.1 extraneous
+2017-03-06T14:13:17.69-0500 [STG/0]      OUT        ├── multer@1.3.0 extraneous
+2017-03-06T14:13:17.69-0500 [STG/0]      OUT        ├── passport@0.3.2 extraneous
+2017-03-06T14:13:17.69-0500 [STG/0]      OUT        ├── passport-http@0.3.0 extraneous
+2017-03-06T14:13:17.70-0500 [STG/0]      OUT        ├── passport-local@1.0.0 extraneous
+2017-03-06T14:13:17.70-0500 [STG/0]      OUT        └── serve-favicon@2.3.2 extraneous
+2017-03-06T14:13:28.08-0500 [STG/0]      OUT Exit status 0
+2017-03-06T14:13:28.08-0500 [STG/0]      OUT Staging complete
+2017-03-06T14:13:28.08-0500 [STG/0]      OUT Uploading build artifacts cache...
+2017-03-06T14:13:28.33-0500 [STG/0]      OUT Uploaded build artifacts cache (5.3M)
+2017-03-06T14:13:30.95-0500 [STG/0]      OUT Uploading complete
+2017-03-06T14:13:31.08-0500 [STG/0]      OUT Destroying container
+2017-03-06T14:13:31.67-0500 [CELL/0]     OUT Creating container
+2017-03-06T14:13:37.27-0500 [STG/0]      OUT Successfully destroyed container
+2017-03-06T14:13:45.96-0500 [CELL/0]     OUT Starting health monitoring of container
+2017-03-06T14:13:47.18-0500 [APP/0]      OUT > node app.js
+2017-03-06T14:13:47.54-0500 [APP/0]      OUT server starting on https://rexnord-customer-portal-prg20170306.mybluemix.net
+2017-03-06T14:13:48.09-0500 [CELL/0]     OUT Container became healthy
+2017-03-06T14:14:02.84-0500 [RTR/0]      OUT rexnord-customer-portal-prg20170306.mybluemix.net - [06/03/2017:19:14:02.821 +0000] "GET / HTTP/1.1" 200 0 682 "https://hub.jazz.net/code/edit/edit.html" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0" 108.168.250.153:32348 x_forwarded_for:"32.97.110.50" x_forwarded_proto:"https" vcap_request_id:4b35f047-542c-4ea7-6e7d-e70a95b0fe73 response_time:0.025927107 app_id:e5ddb78f-12e9-4ebc-9fe9-2e7bc9f1f9a3 x_global_transaction_id:"3186737039"
+2017-03-06T14:14:03.01-0500 [RTR/1]      OUT rexnord-customer-portal-prg20170306.mybluemix.net - [06/03/2017:19:14:03.006 +0000] "GET /stylesheets/style.css HTTP/1.1" 200 0 1056 "https://rexnord-customer-portal-prg20170306.mybluemix.net/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0" 108.168.250.154:42637 x_forwarded_for:"32.97.110.50" x_forwarded_proto:"https" vcap_request_id:447f3405-932a-4b10-786c-e8db0a0f6677 response_time:0.012275326 app_id:e5ddb78f-12e9-4ebc-9fe9-2e7bc9f1f9a3 x_global_transaction_id:"3923869773"
+2017-03-06T14:14:03.12-0500 [RTR/1]      OUT rexnord-customer-portal-prg20170306.mybluemix.net - [06/03/2017:19:14:03.114 +0000] "GET /images/newapp-icon.png HTTP/1.1" 200 0 13899 "https://rexnord-customer-portal-prg20170306.mybluemix.net/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0" 108.168.250.154:49104 x_forwarded_for:"32.97.110.50" x_forwarded_proto:"https" vcap_request_id:922407a1-5822-4f47-542b-7e6eea3657d5 response_time:0.00779984 app_id:e5ddb78f-12e9-4ebc-9fe9-2e7bc9f1f9a3 x_global_transaction_id:"1669382135"
+2017-03-06T14:18:33.17-0500 [RTR/0]      OUT rexnord-customer-portal-prg20170306.mybluemix.net - [06/03/2017:19:18:33.167 +0000] "GET / HTTP/1.1" 200 0 682 "-" "-" 192.155.237.118:45324 x_forwarded_for:"169.50.77.22" x_forwarded_proto:"http" vcap_request_id:13b2c412-d763-49f8-5124-5a42957f399c response_time:0.006296231 app_id:e5ddb78f-12e9-4ebc-9fe9-2e7bc9f1f9a3 x_global_transaction_id:"1045697351"
+2017-03-06T14:18:33.60-0500 [RTR/0]      OUT rexnord-customer-portal-prg20170306.mybluemix.net - [06/03/2017:19:18:33.595 +0000] "GET / HTTP/1.1" 200 0 682 "-" "-" 169.54.202.29:42975 x_forwarded_for:"169.45.2.51" x_forwarded_proto:"http" vcap_request_id:7c0aa7fe-c89e-41e7-501e-427cdc86b5ce response_time:0.006685219 app_id:e5ddb78f-12e9-4ebc-9fe9-2e7bc9f1f9a3 x_global_transaction_id:"2858110915"
+2017-03-06T14:18:34.42-0500 [RTR/0]      OUT rexnord-customer-portal-prg20170306.mybluemix.net - [06/03/2017:19:18:34.412 +0000] "GET / HTTP/1.1" 200 0 682 "-" "-" 108.168.250.151:53580 x_forwarded_for:"168.1.81.212" x_forwarded_proto:"http" vcap_request_id:c3815b5f-3540-45db-76d5-f665eedfd69f response_time:0.012934459 app_id:e5ddb78f-12e9-4ebc-9fe9-2e7bc9f1f9a3 x_global_transaction_id:"2880959905"

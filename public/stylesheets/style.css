@@ -1,82 +1,119 @@
-/* style.css
- * This file provides css styles.
- */
-
-body,html {
-	background-color: #3b4b54; width : 100%;
-	height: 100%;
-	margin: 0 auto;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	color: #ffffff;
+ul.success li{
+	padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    list-style: none;
 }
 
-a {
-	text-decoration: none;
-	color: #00aed1;
+ul.error li{
+	padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+ 	color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    list-style: none;
 }
 
-a:hover {
-	text-decoration: underline;
+.login{
+    margin: auto;
+    width: 50%;
+    padding-top: 30px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: dimgrey;
+    
 }
 
-.newappIcon {
-	padding-top: 10%;
-	display: block;
-	margin: 0 auto;
-	padding-bottom: 2em;
-	max-width:200px;
-}
-
-h1 {
-	font-weight: bold;
-	font-size: 2em;
-}
-
-.leftHalf {
-	float: left;
-	background-color: #26343f;
-	width: 45%;
-	height: 100%;
-}
-
-.rightHalf {
-	float: right;
-	width: 55%;
-	background-color: #313f4a;
-	height: 100%;
-	overflow:auto;
-}
-
-.blue {
-	color: #00aed1;
+.register{
+    margin: auto;
+    width: 40%;
+    padding-top: 30px;
+    border: 2px solid #09195D;
+    padding: 10px;
+   
 }
 
 
-table {
-	table-layout: fixed;
-	width: 800px;
-	margin: 0 auto;
-	word-wrap: break-word;
-	padding-top:10%;
+h2.page-header{
+    text-align: center;
+    margin-top: 0px;
 }
 
-th {
-	border-bottom: 1px solid #000;
+p{
+    text-align: center;
 }
 
-th, td {
-	text-align: left;
-	padding: 2px 20px;
+input.btn.btn-success{
+    float: right;
+    width: 20%;
 }
 
-.env-var {
-	text-align: right;
-	border-right: 1px solid #000;
-	width: 30%;
+.avatar{
+    height: 80%;
+    width: 80%;
 }
 
-pre {
-	padding: 0;
-	margin: 0;
+.iot{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
 }
+
+ a.logout.btn.btn-primary{
+    float: right;
+    margin-top: 7px; 
+}
+
+.navbar{
+    background-color: #09195D;
+}
+
+
+.footer{
+    color: aliceblue;
+    background-color: #09195D;
+    width:100%;
+	height:80px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.to-register{
+    margin: auto;
+    width: 50%;
+}
+
+.form-group{
+    width: 70%;
+    margin: auto;
+}
+
+
+.user-info{
+    margin: auto;
+    width: 40%;
+    padding-top: 30px;
+    border: 3px solid black;
+    padding: 10px;
+
+}
+
+	
+
 

@@ -1,0 +1,36 @@
+doctype html
+html(lang='en')
+  head
+    title Rexnord IOT 
+    link(href='/stylesheets/bootstrap.css', rel='stylesheet')
+    link(href='/stylesheets/style.css', rel='stylesheet')
+  body
+    nav.navbar.navbar-default
+      .container-fluid
+        .navbar-header
+          a.navbar-brand(href='/')
+           img(alt='Brand', src='/images/rexnord_logo.png')
+         .navbar-collapse.collapse
+          ul.nav.navbar-nav
+            if user
+              li(class=(title == 'Dashboard' ? 'active' : ''))
+               a(href='/') Dashboard
+            if !user
+             li(class=(title == 'Register' ? 'active' : ''))
+               a(href='/users/register') Register
+             li(class=(title == 'Login' ? 'active' : ''))
+               a(href='/users/login') Login
+          ul.nav.navbar-nav.navbar-right
+           if user
+            li
+             a(href='/users/logout') Logout   
+    .container
+     .iot
+      img.avatar(src='/images/rexnord_logo.png')
+     != messages() 
+     block content
+     
+     
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(src='javascripts/bootstrap.js')
+       

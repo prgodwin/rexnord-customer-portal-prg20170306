@@ -1,0 +1,50 @@
+{
+    "cloudantNoSQLDB": [
+        {
+            "credentials": {
+                "username": "dddc3634-73c4-449c-b231-f6512db92de5-bluemix",
+                "password": "9bd5a9a9e5aa0fe06c2ee36f36f041e1a8034122ba88e16473ffac6213c169e9",
+                "host": "dddc3634-73c4-449c-b231-f6512db92de5-bluemix.cloudant.com",
+                "port": 443,
+                "url": "https://dddc3634-73c4-449c-b231-f6512db92de5-bluemix:9bd5a9a9e5aa0fe06c2ee36f36f041e1a8034122ba88e16473ffac6213c169e9@dddc3634-73c4-449c-b231-f6512db92de5-bluemix.cloudant.com"
+            },
+            "syslog_drain_url": null,
+            "label": "cloudantNoSQLDB",
+            "provider": null,
+            "plan": "Lite",
+            "name": "rexnord-customer-portal-demo-cloudantNoSQLDB",
+            "tags": [
+                "data_management",
+                "ibm_created",
+                "lite",
+                "ibm_dedicated_public"
+            ]
+        }
+    ],
+    "iotf-service": [
+        {
+            "credentials": {
+                "iotCredentialsIdentifier": "a2g6k39sl6r5",
+                "mqtt_host": "fstyge.messaging.internetofthings.ibmcloud.com",
+                "mqtt_u_port": 1883,
+                "mqtt_s_port": 8883,
+                "http_host": "fstyge.internetofthings.ibmcloud.com",
+                "org": "fstyge",
+                "apiKey": "a-fstyge-8jbbxpwozp",
+                "apiToken": "KTYI(TLFkZ1qtbqzzq"
+            },
+            "syslog_drain_url": null,
+            "label": "iotf-service",
+            "provider": null,
+            "plan": "iotf-service-free",
+            "name": "Internet of Things Platform-prg20170304",
+            "tags": [
+                "internet_of_things",
+                "Internet of Things",
+                "ibm_created",
+                "ibm_dedicated_public",
+                "lite"
+            ]
+        }
+    ]
+}

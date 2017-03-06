@@ -1,0 +1,13 @@
+extends layout
+
+block content
+ h3 Welcome back #{user.name}
+ h3 You are an #{user.type}
+ a.config.btn.btn-primary(href='/admin/configuration') Configuration
+ a.config.btn.btn-primary(href='/admin/devices') Devices
+ a.config.btn.btn-success(href='/admin/addDevice') Add Device
+ select.devicesSelect#deviceslist
+   - for (var i = 0; i < user.devices.length ; i++)
+    option #{user.devices[i]}
+
+   

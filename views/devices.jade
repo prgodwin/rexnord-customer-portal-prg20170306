@@ -1,0 +1,99 @@
+extends layout
+
+block content
+    h3 Devices
+    
+            //- define table columns
+        - for (var i = 0; i < devices.length -1; i++)
+            .dev-tbl
+                 .row
+                   .col-md-12
+                     .tbl-1
+                       h3 Device Credentails
+                       table
+                         tr
+                           th DeviceID
+                           th Sales Order Number (SO#)
+                           th Gearbox Size
+                         tr
+                           td
+                             #{devices[i].deviceID}
+                           td
+                             #{devices[i].son}
+                           td
+                             #{devices[i].gearbox_size}
+                 .row
+                   .col-md-12
+                     .tbl-1
+                       h3 Device Credentails
+                       table
+                         tr
+                           th Gearbox Configuration
+                           th Gearbox Nominal Ratio
+                           th Gearbox Exact Ratio
+                           th Customer Name
+                         tr
+                           td
+                             #{devices[i].gearbox_configuration}
+                           td
+                             #{devices[i].gearbox_nominal_ratio}
+                           td
+                             #{devices[i].gearbox_exact_ratio}
+                           td
+                             #{devices[i].customer_name}             
+                 .row
+                   .col-md-12
+                     .tbl-2
+                       h3 Device Numbers
+                       table
+                         tr
+                           th Install location (city/state)
+                           th Install location (country)
+                           th Basic or Advanced
+                           th Customer Motor Speed (rpm)
+                           th Customer Motor Amp Rating
+                           th Customer Motor HP
+                           th Customer Motor Voltage
+                         tr
+                           td
+                             #{devices[i].install_location}
+                           td
+                             #{devices[i].install_country}
+                           td
+                             #{devices[i].basic_or_advanced}
+                           td
+                             #{devices[i].customer_motor_speed_rpm}
+                           td
+                             #{devices[i].customer_motor_amp_rating}
+                           td
+                             #{devices[i].customer_motor_hp}
+                           td
+                             #{devices[i].customer_motor_voltage}
+               .row
+                 .col-md-12
+                   .tbl-3
+                     h3 Device Numbers
+                     table
+                       tr
+                         th Customer Motor Power Factor
+                         th Motor Current Transformer Ratio
+                         th Customer Speed Input Scaling - electrical
+                         th Customer Speed Input Scaling - physical
+                         th Customer Amp Draw Input scaling - electrical
+                         th Customer Amp Draw Input scaling - physical
+                       tr
+                           td
+                             #{devices[i].customer_motor_power_factor}
+                           td
+                             #{devices[i].motor_current_transformer_ratio}
+                           td
+                             #{devices[i].customer_speed_input_scaling_electrical}
+                           td
+                             #{devices[i].customer_speed_input_scaling_physical}
+                           td
+                             #{devices[i].customer_amp_draw_input_scaling_electrical}
+                           td
+                             #{devices[i].customer_amp_draw_input_scaling_physical}
+                          
+        
+        
