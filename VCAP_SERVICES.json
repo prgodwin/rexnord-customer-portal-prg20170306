@@ -2,17 +2,17 @@
   "cloudantNoSQLDB": [
     {
       "credentials": {
-        "username": "ced82cc3-3a5e-4024-9e8c-6b26217176ac-bluemix",
-        "password": "7797b772efaeea48014a077f4e23da79da6e555e95f58f5a952c49d942603b2d",
-        "host": "ced82cc3-3a5e-4024-9e8c-6b26217176ac-bluemix.cloudant.com",
+        "username": "9ab6ea4e-e61f-4d83-bb99-9f6d9811db5f-bluemix",
+        "password": "057135a7a140431352c047fc3a2eeb16f7086569ea67ac2f7f35674b4bcc237b",
+        "host": "9ab6ea4e-e61f-4d83-bb99-9f6d9811db5f-bluemix.cloudant.com",
         "port": 443,
-        "url": "https://ced82cc3-3a5e-4024-9e8c-6b26217176ac-bluemix:7797b772efaeea48014a077f4e23da79da6e555e95f58f5a952c49d942603b2d@ced82cc3-3a5e-4024-9e8c-6b26217176ac-bluemix.cloudant.com"
+        "url": "https://9ab6ea4e-e61f-4d83-bb99-9f6d9811db5f-bluemix:057135a7a140431352c047fc3a2eeb16f7086569ea67ac2f7f35674b4bcc237b@9ab6ea4e-e61f-4d83-bb99-9f6d9811db5f-bluemix.cloudant.com"
       },
       "syslog_drain_url": null,
       "label": "cloudantNoSQLDB",
       "provider": null,
       "plan": "Lite",
-      "name": "rexnord-customer-portal-demo-cloudantNoSQLDB",
+      "name": "rexnord-customer-portal-prg2017030-cloudantNoSQLDB",
       "tags": [
         "data_management",
         "ibm_created",
