@@ -4,7 +4,7 @@ var Cloudant = require('cloudant');
 var vcapServices = require('../vcapServices');
 var cloudant_service = vcapServices.cloudantNoSQLDB[0].credentials;
 var cloudant = Cloudant({account:cloudant_service.username, password:cloudant_service.password});
-var db = cloudant.db.use('users');
+var db = cloudant.db.use('rexnord-users');
 var bcrypt = require('bcryptjs');
 
 
