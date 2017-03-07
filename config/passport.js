@@ -29,7 +29,7 @@ module.exports = function(passport) {
 //            console.log(JSON.stringify(body));
 
             // Use Cloudant query to find the user just based on user name
-            var db = cloudant.db.use('users');
+            var db = cloudant.db.use('rexnord-users');
             db.get(username, function(err, result) {
                 if (err){
                     console.log("There was an error finding the user: " + err);
