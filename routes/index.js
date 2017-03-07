@@ -4,7 +4,7 @@ var Cloudant = require('cloudant');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var vcapServices = require('../vcapServices');
-var cloudant_service = vcapServices.cloudantNoSQLDB.credentials;
+var cloudant_service = vcapServices.cloudantNoSQLDB[0].credentials;
 var cloudant = Cloudant({account:cloudant_service.username, password:cloudant_service.password});
 var db = cloudant.db.use('users');
 
